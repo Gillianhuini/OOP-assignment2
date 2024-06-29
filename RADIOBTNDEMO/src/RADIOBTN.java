@@ -143,27 +143,32 @@ public class RADIOBTN extends javax.swing.JFrame {
     private void RADIOBTNrabbitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RADIOBTNrabbitActionPerformed
        ImageIcon icon= new ImageIcon(getClass().getResource("/images/rabbit.jpg"));
        picdisplay.setIcon(icon);
+         JOptionPane.showMessageDialog(this, "You selected: rabbit");
     }//GEN-LAST:event_RADIOBTNrabbitActionPerformed
 
     private void RADIOBTNbirdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RADIOBTNbirdActionPerformed
        ImageIcon icon= new ImageIcon(getClass().getResource("/images/bird.jpg"));
        picdisplay.setIcon(icon);
+         JOptionPane.showMessageDialog(this, "You selected: bird");
     }//GEN-LAST:event_RADIOBTNbirdActionPerformed
 
     private void RADIOBTNcatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RADIOBTNcatActionPerformed
          ImageIcon icon= new ImageIcon(getClass().getResource("/images/cat.jpg"));
        picdisplay.setIcon(icon);
+         JOptionPane.showMessageDialog(this, "You selected: cat");
     }//GEN-LAST:event_RADIOBTNcatActionPerformed
 
     private void RADIOBTNdogActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RADIOBTNdogActionPerformed
        ImageIcon icon= new ImageIcon(getClass().getResource("/images/dog.jpg"));
        picdisplay.setIcon(icon);
+         JOptionPane.showMessageDialog(this, "You selected: dog");
         
     }//GEN-LAST:event_RADIOBTNdogActionPerformed
 
     private void RADIOBTNpigActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RADIOBTNpigActionPerformed
        ImageIcon icon= new ImageIcon(getClass().getResource("/images/pig.jpg"));
          picdisplay.setIcon(icon);
+         JOptionPane.showMessageDialog(this, "You selected: pig");
     }//GEN-LAST:event_RADIOBTNpigActionPerformed
        
                
